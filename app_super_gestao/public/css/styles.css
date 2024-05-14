@@ -1,0 +1,63 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    padding-left: 20px; /* Adiciona preenchimento à esquerda para separar o fundo */
+}
+
+nav {
+    display: flex; /* Usa Flexbox para alinhar os itens */
+    justify-content: space-around; /* Distribui os itens igualmente */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Garante que os itens estejam em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+    margin: 0 10px; /* Adiciona margem horizontal para espaçar os itens */
+    padding: 0; /* Remove preenchimento */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Adiciona uma transição suave para a cor */
+    word-spacing: 0; /* Remove o espaçamento entre as palavras */
+    padding: 0 10px; /* Adiciona preenchimento horizontal para separar as palavras do fundo */
+    display: inline-block; /* Garante que o link ocupe apenas o espaço necessário */
+}
+
+nav ul li a:hover {
+    color: #ddd; /* Muda a cor do link ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Define um limite máximo para o conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo principal */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Altera a posição para relativa */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Adiciona uma sombra suave no topo do rodapé */
+}
